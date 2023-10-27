@@ -110,7 +110,7 @@ class YouKu:
                 m3u8_url = video["m3u8_url"]
                 width = video["width"]
                 height = video["height"]
-                size = video["size"]
+                size = video.get("size", 0)
                 size = '{:.1f}'.format(float(size) / 1048576)
                 drm_type = video["drm_type"]
                 if video['drm_type'] == "default":
