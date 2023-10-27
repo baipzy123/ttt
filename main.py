@@ -22,8 +22,8 @@ import yaml
 from tabulate import tabulate
 from wasmer_compiler_cranelift import Compiler
 from wasmer import Store, Type, Function, Memory, Module, ImportObject, engine, Instance, Table
-from pywidevineb.L3.cdm import deviceconfig
-from pywidevineb.L3.decrypt.wvdecryptcustom import WvDecrypt
+from pywidevine.L3.cdm import deviceconfig
+from pywidevine.L3.decrypt.wvdecryptcustom import WvDecrypt
 import re, requests, time, json
 from hashlib import md5
 import base64
